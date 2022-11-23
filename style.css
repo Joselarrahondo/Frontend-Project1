@@ -1,0 +1,64 @@
+body{
+background-image: url("https://thumbs.gfycat.com/SpecificFrayedIrishsetter-size_restricted.gif");
+background-repeat: no-repeat;
+background-size: cover; 
+}
+#user-section{
+    text-align: center;
+}
+#header{
+    text-align: center;
+    color: whitesmoke;
+    padding: 1%;
+    margin: 0%;
+    font-style: oblique;
+    
+}
+
+
+
+.PLAYER_INFO{
+    border: 10px, solid black;
+    background-color: black;
+    opacity: 50%;
+  color:white;
+    width: 750px;
+    border-left: 80px;
+  text-align: center;
+  
+}
+.FirstName{
+    color: whitesmoke;
+  text-align: center;
+  font-size: 30px;
+}
+.lastName{
+ 
+  color: whitesmoke;
+  text-align: center;
+  font-size: 28px;
+}
+.teamName{
+    color: whitesmoke;
+  text-align: center;
+  font-size: 26px;
+}
+
+.teamnickName{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 24px;
+
+}
+.teamCity{
+    color: whitesmoke;
+    text-align: center; 
+    font-size: 26px;
+}
+
+.Conference{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 26px;
+
+}
