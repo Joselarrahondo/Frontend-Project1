@@ -2,13 +2,14 @@ body{
 background-image: url("https://thumbs.gfycat.com/SpecificFrayedIrishsetter-size_restricted.gif");
 background-repeat: no-repeat;
 background-size: cover; 
+animation: change 30s infinite;
 }
 #user-section{
     text-align: center;
 }
 #header{
     text-align: center;
-    color: whitesmoke;
+    color: rgb(225, 38, 38);
     padding: 1%;
     margin: 0%;
     font-style: oblique;
@@ -61,4 +62,28 @@ background-size: cover;
     text-align: center;
     font-size: 26px;
 
+}
+@keyframes change {
+ 
+  0%
+  {
+    background-image: url("https://thumbs.gfycat.com/SpecificFrayedIrishsetter-size_restricted.gif");
+  } 
+  20%
+  {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHiYgaTAThPMLY7-_TXPXooGtDeRWFmhy8BA&usqp=CAU");
+  } 
+  40%
+  {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnWZr9WOKF6pWN6gQXesIouzhKjTjrr5qXZDYDiphMFhbmRTOVU6xlNTZcSlTYNtukdss&usqp=CAU");
+  } 
+  60%
+  {
+    background-image: url("nba.jpeg");
+  }
+  80%
+  {
+    background-image: url("https://www.gifcen.com/wp-content/uploads/2022/04/basketball-gif-3.gif");
+  }
+  
 }
