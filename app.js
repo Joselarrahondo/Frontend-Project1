@@ -2,13 +2,6 @@ const submitButton = document.getElementById("submit");
 const input = document.querySelector("input[name='search']");
 const players = document.querySelector(".players")
 const playerInfo = document.createElement("div")
-// const playerInfo = document.querySelector(".playerinfo")
-// const Name = document.querySelector(".firstName")
-// const lName = document.querySelector(".lasttName")
-// const tName = document.querySelector(".teamName")
-// const tNick = document.querySelector(".teamNick")
-// const tCity = document.querySelector(".city")
-// const conf = document.querySelector(".conference")
 
 function createElements(firstName, lastName, city, teamName, teamNick, teamConf) {
 
@@ -54,37 +47,7 @@ function createElements(firstName, lastName, city, teamName, teamNick, teamConf)
    $('body').append(playerInfo)
 
 }
-//   const showTitle = document.createElement("h3")
-//   showTitle.className = "card-Title"
-//   const showImg = document.createElement("img")
-//   showImg.className = "card-image"
-//   const showGen = document.createElement("h2")
-//   showGen.className = "card-genres"
-//   const cardSummary = document.createElement("div")
-//   const emTag = document.createElement("em")
-//   emTag.innerText = "Summary:"
-//   const pTag = document.createElement("p")
 
-
-
-
-// showImg.setAttribute("src", image)
-// span.append(showImg)
-
-// showGen.innerText = genres
-// span.append(showGen); 
-
-// cardSummary.prepend(emTag);
-// pTag.innerHTML = summary
-// cardSummary.append(pTag);
-// span.append(cardSummary); 
-
-// return result.append(span)
-
-
-//  $.ajaxSetup({
-//     headers: {"Ocp-Apim-Subscription-Key": "9d5f163a780a42eaa3691542b918abb4" }
-//  })
 
 submitButton.addEventListener('click', () => {
 const searchText = input.value
